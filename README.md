@@ -1,6 +1,6 @@
-# 🌊 Oceanic6 Solutionz - Multimodal RAG Platform
+# Multimodal RAG Platform
 
-A production-ready Retrieval-Augmented Generation (RAG) chatbot and platform built for Oceanic6 Solutionz. This system intelligently answers customer inquiries about granite, quartz, and related products by retrieving relevant information from website data, PDFs, and internal company documents, then generating contextually accurate responses.
+A production-ready Retrieval-Augmented Generation (RAG) chatbot and platform built for Company. This system intelligently answers customer inquiries about granite, quartz, and related products by retrieving relevant information from website data, PDFs, and internal company documents, then generating contextually accurate responses.
 
 ## 🏗 Architecture
 
@@ -51,7 +51,7 @@ flowchart TD
 ```
 
 ## ✨ Key Features
-- **Multi-source Data Integration**: Automatically extracts and indexes 500+ documents from oceanic6solutionz.com, PDF catalogs, and specification docs.
+- **Multi-source Data Integration**: Automatically extracts and indexes 500+ documents from xyz.com (company website), PDF catalogs, and specification docs.
 - **Intelligent Retrieval**: Semantic similarity search with top-5 chunk retrieval and source attribution.
 - **Advanced NLP**: Powered by GPT-4o with context-aware conversations and real-time streaming.
 - **Production Grade**: Comprehensive error handling, detailed logging, health checks, and Docker containerization.
