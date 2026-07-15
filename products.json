@@ -1,0 +1,52 @@
+[
+    {
+        "id": "calcutta-laza",
+        "name": "Calcutta Laza",
+        "category": "Quartz",
+        "image_path": "extracted_images/quartz_slab_cut_to_size_catalog_p4_img0.jpeg",
+        "description": "Calcutta Laza is a premium Quartz (not Quartzite) featuring a milky white background with realistic soft brown veining. It offers the look of natural marble with the durability of quartz.",
+        "specs": {
+            "Material": "Premium Quartz",
+            "Thickness": "20mm / 30mm",
+            "Finish": "Polished",
+            "Application": "Countertops, Flooring, Wall Cladding"
+        }
+    },
+    {
+        "id": "calcutta-platto",
+        "name": "Calcutta Platto",
+        "category": "Quartz",
+        "image_path": "extracted_images/quartz_slab_cut_to_size_catalog_p5_img0.jpeg",
+        "description": "Stunning quartz featuring a subtle play of light and shadow with intricate veining.",
+        "specs": {
+            "Thickness": "20mm",
+            "Finish": "Polished / Honed",
+            "Application": "Countertops"
+        }
+    },
+    {
+        "id": "crystal-blue",
+        "name": "Crystal Blue",
+        "category": "Granite",
+        "image_path": "extracted_images/granite_slab_cut_to_size_catalog_p2_img0.jpeg",
+        "description": "High-durability natural granite with a crystalline blue tint and uniform texture.",
+        "specs": {
+            "Origin": "India",
+            "Thickness": "20mm",
+            "Usage": "Outdoor / Indoor"
+        }
+    },
+    {
+        "id": "black-galaxy",
+        "name": "Black Galaxy Granite Slab",
+        "category": "Granite",
+        "image_path": "extracted_images/granite_slab_cut_to_size_catalog_p1_img0.jpeg",
+        "description": "Premium deep black granite with striking gold and silver speckles, giving a 'galaxy' appearance.",
+        "specs": {
+            "Material": "Granite",
+            "Color": "Black with gold/silver speckles",
+            "Texture": "Polished (high-gloss finish)",
+            "Thickness": "2cm or 3cm (standard)"
+        }
+    }
+]

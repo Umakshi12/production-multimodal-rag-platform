@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceania AI Assistant - Oceanic6 Solutionz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="logo">O</div>
+            <div class="header-info">
+                <h1>Oceania AI</h1>
+                <p>Oceanic6 Solutionz Assistant | Granite & Quartz Experts</p>
+            </div>
+        </header>
+
+        <main id="chat-messages">
+            <div class="message bot-message">
+                Hello! I am Oceania, your AI assistant for Oceanic6 Solutionz. How can I help you with our premium stone products today?
+            </div>
+        </main>
+
+        <section class="input-area" style="position: relative;">
+            <input type="file" id="image-upload" accept="image/*" style="display: none;">
+            <button type="button" id="upload-btn" title="Attach Image" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--secondary-text); padding: 0 10px; transition: color 0.3s;">📎</button>
+            <div id="image-preview-container" style="display: none; position: absolute; bottom: 85px; left: 30px; background: #fff; padding: 10px; border-radius: 10px; border: 1px solid #e0e0e0; box-shadow: var(--shadow); z-index: 10;">
+                <img id="image-preview" src="" style="max-width: 150px; max-height: 150px; border-radius: 8px; object-fit: cover;" />
+                <button type="button" id="remove-image-btn" title="Remove Image" style="position: absolute; top: -10px; right: -10px; background: #e74c3c; color: white; border: none; border-radius: 50%; width: 24px; height: 24px; cursor: pointer; font-weight: bold; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">×</button>
+            </div>
+            <input type="text" id="user-input" placeholder="Type your question about our products..." autocomplete="off">
+            <button id="send-btn">Send</button>
+        </section>
+    </div>
+
+    <script src="app.js?v=2"></script>
+</body>
+</html>

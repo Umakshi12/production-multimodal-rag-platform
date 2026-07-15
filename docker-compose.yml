@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  oceania-chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: oceania-chatbot
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=gpt-4o
+      - EMBEDDING_MODEL=text-embedding-3-small
+      - VECTOR_DB_PATH=/app/chroma_db
+      - DATA_DIR=/app/company_data
+      - IMAGE_OUTPUT_DIR=/app/extracted_images
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./extracted_images:/app/extracted_images
+      - ./logs:/app/logs
+      - ./company_data:/app/company_data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

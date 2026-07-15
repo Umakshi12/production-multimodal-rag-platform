@@ -1,0 +1,23 @@
+langchain
+langchain-openai  # commented for local testing; enable for OpenAI production
+langchain-community
+langchain-chroma
+langchain-mistralai
+chromadb
+openai           # commented for local testing; enable for OpenAI production
+streamlit
+fastapi
+uvicorn
+python-dotenv
+requests
+beautifulsoup4
+lxml
+pymupdf
+pdfplumber
+pillow
+python-docx
+
+# Local / free-testing backends
+sentence-transformers
+transformers
+accelerate
